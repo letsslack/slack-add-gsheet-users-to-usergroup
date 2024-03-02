@@ -13,5 +13,5 @@ This lightweight proof of concept reads a list of user email addresses from a Go
    - users:read
    - users:read.email
    - usergroups:write
-6. Create a `user_token` script property in Google Apps Script with the user token you obtained in the previous step. Add any other desired properties below it. (Click the gear icon > Settings > Script properties)
+6. Create a `user_token` script property in Google Apps Script with the user token you obtained in the previous step. (Click the gear icon > Settings > Script properties)
 7. Save `Code.gs` and run the main function. This will read emails from the "Emails" sheet and populate "UserIDs" with the corresponding UserIds, and then add the users to the specified UserGroup in Slack.
